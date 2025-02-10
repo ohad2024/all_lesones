@@ -1,0 +1,48 @@
+/* Header Styles */
+header {
+    background: #fff;
+}
+
+header .nav li a {
+    color: navy;
+    text-decoration: none;
+}
+
+header .nav li a:hover {
+    color: white;
+    background: navy;
+}
+
+/* Main Content Styles */
+main {
+    background: #f8f9fa;
+    min-height: 300px;
+}
+
+main .box_big {
+    min-height: 250px;
+    color: black;
+}
+
+main .box_right h3 {
+    border-radius: 0;
+}
+
+/* Logo Styles */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: navy;
+}
+
+/* Text Styles */
+.text-secondary {
+    color: #6c757d;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .box_right {
+        margin-top: 1rem;
+    }
+} 

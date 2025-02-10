@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* Wrapper to contain all elements and define the main boundary */
+.wrapper {
+    max-width: 900px;
+    background-color: gray;
+    padding: 10px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    background-color: gray;
+}
+
+/* Logo is now 20% of the header width and aligned left */
+.logo {
+    width: 20%;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Menu */
+.menu {
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Project Section */
+.project {
+    display: flex;
+    padding: 3px;
+    gap: 3px;
+    background-color: gray;
+}
+
+.project-description {
+    width: 45%;
+    background-color: gray;
+    padding: 30px;
+}
+
+.right-side {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.featured-project {
+    background-color: gray;
+    padding: 30px;
+}
+
+.project-navigation {
+    background-color: gray;
+    padding: 10px;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    padding: 3px;
+    background-color: gray;
+}
+
+.content-box {
+    width: 30%;
+    background-color: gray;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    margin-top: 3px;
+}

@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: silver;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    /* מקסימום רוחב */
+    max-width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 8px;
+    /* מינימום גובה */
+    min-height: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.icon2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fa{
+    font-size: 2em;
+}
+
+.fa-id-card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-meetup{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+

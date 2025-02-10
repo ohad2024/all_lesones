@@ -1,0 +1,24 @@
+.bg-pic {
+    min-height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy9FDMe89-wq6t_7mVg0cb-kM7rTCPgsaJbQ&s");   
+}
+
+ul {
+    background-color:gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+}
+
+.nav-button {
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    justify-content: center;
+}

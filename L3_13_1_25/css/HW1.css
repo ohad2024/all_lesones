@@ -1,0 +1,85 @@
+/* Reset default margin & padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-width background sections */
+.nav, .header {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Specific background colors */
+.nav {
+    background: yellow;
+}
+
+.header {
+    background: lightpink;
+}
+
+/* Centered content inside nav and header */
+.container, .main-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Main content layout (now same width as .container) */
+.main-container {
+    background-color: lightgray;
+    display: flex;
+    padding: 0;
+}
+
+/* Left and center boxes */
+.content-box {
+    padding: 20px;
+}
+
+.left-box {
+    width: 25%;
+    background-color: lightblue;
+}
+
+.center-box {
+    flex-grow: 1;
+    background-color: purple;
+}
+
+/* Articles section */
+.articles-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.article-box {
+    padding: 15px;
+    font-size: 16px;
+}
+
+.article1 {
+    width: 30%;
+    background-color: orange;
+}
+
+.article2 {
+    width: 40%;
+    background-color: green;
+}
+
+.article3 {
+    width: 30%;
+    background-color: blue;
+}

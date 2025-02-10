@@ -1,0 +1,15 @@
+/* עיצוב ספציפי לגלריה */
+.gallery {
+    text-align: center;
+}
+
+img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+} 

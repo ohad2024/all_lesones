@@ -1,0 +1,36 @@
+
+body {
+    background-color: silver;
+    color: red;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+.h3-class {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.p-class {
+    background-color: navajowhite;
+    text-align: center;
+}
+
+#p-id {
+    background-color: gainsboro;
+}
+
+
+

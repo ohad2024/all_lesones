@@ -1,0 +1,38 @@
+/* CSS */
+body {
+    background-color: ghostwhite;
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: dodgerblue;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid dodgerblue;
+    padding-bottom: 10px;
+}
+
+/* Example of styling with ID */
+#first-paragraph {
+    color: seagreen;
+    font-size: 20px;
+    background-color: honeydew;
+    padding: 10px;
+}
+
+/* Example of styling with Class */
+.blue-text {
+    color: steelblue;
+    margin: 15px 0;
+}
+
+/* Example of combining ID with Class */
+#special-text {
+    background-color: lightskyblue;
+    padding: 10px;
+}

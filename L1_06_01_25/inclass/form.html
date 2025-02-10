@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> order form here: </h1>
+    <form action="submit_form.html">
+        <!-- enter information about the user name, email, phone, birthday-->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+
+        <!-- enter information about the user birthday-->
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required>
+        <br>
+
+        <!-- enter information about the user product-->
+        <label for="product">Product:</label>
+        <select id="product" name="product" required>
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+            <option value="product3">Product 3</option>
+        </select>
+        <br>
+
+        <!-- enter information about the user terms and conditions-->
+        <input type="checkbox" id="terms" name="confirm" required>
+        <label>I agree to the terms and conditions</label>
+        <br>
+        
+        <!-- enter information if it is for birthday-->
+        <label> For Birthday?</label>
+        <br>
+        <label">Yes</label>
+        <input type="radio" id="yes" name="birthday" value="yes" required>
+        <label>No</label>
+        <input type="radio" id="no" name="birthday" value="no" required>
+        <label>Maybe</label>
+        <input type="radio" id="maybe" name="birthday" value="maybe" required>
+        <br>
+
+        <!-- <input type="submit" value="Submit"> -->
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
